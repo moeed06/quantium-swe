@@ -3,7 +3,7 @@ salesString = r"data\daily_sales_data_"
 headerWritten = False
 
 
-for i in range(0,2):
+for i in range(0,3):
     newSalesString = salesString + str(i) + ".csv"
 
     with open(newSalesString) as csvfile_input, open("output.csv", "w", newline="") as csvfile_output:
